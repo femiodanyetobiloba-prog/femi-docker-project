@@ -5,11 +5,11 @@ on:
     branches:
       - main
 
-      jobs:
+jobs:
   docker_build:
     runs-on: ubuntu-latest
        
-        steps:
+    steps:
       - name: Get Repository Code
         uses: actions/checkout@v4
 
